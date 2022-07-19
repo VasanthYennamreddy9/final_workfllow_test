@@ -11,7 +11,3 @@ def add(a,b) :
 def sub(a,b):
     val = int2(a,b)
     return a-b
-
-def multiply(a,b):
-    int3()
-    return a*b
