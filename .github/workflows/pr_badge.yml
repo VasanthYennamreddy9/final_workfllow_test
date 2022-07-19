@@ -2,7 +2,7 @@ name: Coverage Report for PR
 on:
   pull_request:
 jobs:
-  Update Coverage on PR:
+  Update-Coverage-on-PR:
     runs-on: ubuntu-latest
     
     steps:
