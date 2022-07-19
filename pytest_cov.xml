@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.307" timestamp="2022-07-19T10:16:45.788862" hostname="fv-az203-594"><testcase classname="" name="apps.tests.test_program" time="0.000"><error message="collection failure">ImportError while importing test module '/home/runner/work/final_workfllow_test/final_workfllow_test/apps/tests/test_program.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.8/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+apps/tests/test_program.py:2: in &lt;module&gt;
+    from  parameterized import parameterized_class
+E   ModuleNotFoundError: No module named 'parameterized'</error></testcase></testsuite></testsuites>

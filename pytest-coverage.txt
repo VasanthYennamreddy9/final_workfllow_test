@@ -1,0 +1,31 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.10, pytest-7.1.2, pluggy-1.0.0
+rootdir: /home/runner/work/final_workfllow_test/final_workfllow_test
+plugins: cov-3.0.0
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_________________ ERROR collecting apps/tests/test_program.py __________________
+ImportError while importing test module '/home/runner/work/final_workfllow_test/final_workfllow_test/apps/tests/test_program.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.8/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+apps/tests/test_program.py:2: in <module>
+    from  parameterized import parameterized_class
+E   ModuleNotFoundError: No module named 'parameterized'
+- generated xml file: /home/runner/work/final_workfllow_test/final_workfllow_test/pytest_cov.xml -
+
+---------- coverage: platform linux, python 3.8.10-final-0 -----------
+Name                         Stmts   Miss  Cover   Missing
+----------------------------------------------------------
+apps/program.py                 12     12     0%   1-17
+apps/tests/test_program.py      12     10    17%   3-19
+apps/utils.py                   10     10     0%   1-14
+----------------------------------------------------------
+TOTAL                           34     32     6%
+
+=========================== short test summary info ============================
+ERROR apps/tests/test_program.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.30s ===============================
