@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.285" timestamp="2022-07-19T10:17:34.261419" hostname="fv-az241-257"><testcase classname="" name="apps.tests.test_program" time="0.000"><error message="collection failure">ImportError while importing test module '/home/runner/work/final_workfllow_test/final_workfllow_test/apps/tests/test_program.py'.
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.173" timestamp="2022-07-19T10:17:57.692939" hostname="fv-az121-937"><testcase classname="" name="apps.tests.test_program" time="0.000"><error message="collection failure">ImportError while importing test module '/home/runner/work/final_workfllow_test/final_workfllow_test/apps/tests/test_program.py'.
 Hint: make sure your test modules/packages have valid Python names.
 Traceback:
 /usr/lib/python3.8/importlib/__init__.py:127: in import_module
