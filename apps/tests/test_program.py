@@ -1,6 +1,6 @@
 import unittest 
 from  parameterized import parameterized_class
-from apps.program import add,sub,multiply
+from apps.program import add,sub,mul
 import mock
 
 @parameterized_class(('a','b','expected_sum','expected_diff'),(
