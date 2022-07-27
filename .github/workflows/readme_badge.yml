@@ -26,15 +26,15 @@ jobs:
       - name: Build coverage file
         run: |
           coverage run -m unittest discover
-      - name: Pytest coverage comment
-        if: ${{ github.ref == 'refs/heads/main' }}
-        id: coverageComment
-        uses: MishaKav/pytest-coverage-comment@main
-        with:
-          hide-comment: true
-          pytest-coverage-path: pytest-coverage.txt
-          junitxml-path: pytest_cov.xml
-          badge-title: Coverage
+      # - name: Pytest coverage comment
+      #   if: ${{ github.ref == 'refs/heads/main' }}
+      #   id: coverageComment
+      #   uses: MishaKav/pytest-coverage-comment@main
+      #   with:
+      #     hide-comment: true
+      #     pytest-coverage-path: pytest-coverage.txt
+      #     junitxml-path: pytest_cov.xml
+      #     badge-title: Coverage
 
       # - name: Create Variable of Summary Report
       #   id: summary_report
@@ -54,11 +54,11 @@ jobs:
       
       
 
-      # - name: Commit & Push changes to Readme
-      #   if: ${{ github.ref == 'refs/heads/main' }}
-      #   uses: actions-js/push@master
-      #   with:
-      #     message: Update coverage on Readme
-      #     github_token: ${{ secrets.REPO_TOKEN }}
+      - name: Commit & Push changes to Readme
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: actions-js/push@master
+        with:
+          message: Update coverage on Readme
+          github_token: ${{ secrets.REPO_TOKEN }}
       
       
