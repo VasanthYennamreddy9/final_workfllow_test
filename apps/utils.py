@@ -12,3 +12,6 @@ def int2(a,b):
 
 def int3(a,b):
     pass
+
+def int4(a,b):
+    pass
