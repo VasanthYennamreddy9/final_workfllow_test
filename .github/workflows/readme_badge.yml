@@ -23,6 +23,11 @@ jobs:
           pip install flake8 pytest pytest-cov
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       
+      - name: Remove File
+        uses: JesseTG/rm@v1.0.3
+        with:
+          path: ./coverage.svg
+
       - name: Build coverage file and svg
         run: |
           coverage run -m unittest discover
