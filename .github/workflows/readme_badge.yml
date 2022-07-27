@@ -61,7 +61,7 @@ jobs:
       
 
       - name: Commit & Push changes to Readme
-        if: ${{ github.ref == 'refs/heads/main' }}
+        #if: ${{ github.ref == 'refs/heads/main' }}
         uses: actions-js/push@master
         with:
           message: Update coverage on Readme
