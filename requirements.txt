@@ -1,4 +1,4 @@
 parameterized
 mock
 coverage
-coverege-badge
+coverage-badge
