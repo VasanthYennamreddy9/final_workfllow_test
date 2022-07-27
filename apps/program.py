@@ -1,4 +1,4 @@
-from apps.utils import int1,int2,int3
+from apps.utils import int1,int2
 
 
 def add(a,b) :
