@@ -19,13 +19,13 @@ E   ModuleNotFoundError: No module named 'parameterized'
 ---------- coverage: platform linux, python 3.8.10-final-0 -----------
 Name                         Stmts   Miss  Cover   Missing
 ----------------------------------------------------------
-apps/program.py                 12     12     0%   1-17
+apps/program.py                  9      9     0%   1-13
 apps/tests/test_program.py      12     10    17%   3-19
 apps/utils.py                   10     10     0%   1-14
 ----------------------------------------------------------
-TOTAL                           34     32     6%
+TOTAL                           31     29     6%
 
 =========================== short test summary info ============================
 ERROR apps/tests/test_program.py
 !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-=============================== 1 error in 0.17s ===============================
+=============================== 1 error in 0.26s ===============================
