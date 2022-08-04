@@ -10,4 +10,6 @@ def int2(a,b):
     else:
         return 0 
 
+def int3():
+    pass
 
